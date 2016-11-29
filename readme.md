@@ -12,9 +12,9 @@ npm install --save botkit-middleware-bcrm
 
 ## Enable Your Bot
 
-1. [Create a bCRM account](https://bcrm.com?ref=botkit-middleware-bcrm) and get your bCRM `token` and bCRM `bot id`.
+1) [Create a bCRM account](https://bcrm.com?ref=botkit-middleware-bcrm) and get your bCRM `token` and bCRM `bot id`.
 
-2. Add the following lines to your Botkit application:
+2) Add the following lines to your Botkit application:
 
 ```
 require('botkit-middleware-bcrm')({
@@ -24,7 +24,7 @@ require('botkit-middleware-bcrm')({
 });
 ```
 
-3. To register new users with bCRM:
+3) To register new users with bCRM:
 
 > If using Slack, register a new team with your bot's application via the oauth flow.
 Note, this assumes you are using the built-in oauth support.
