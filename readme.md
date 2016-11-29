@@ -26,10 +26,10 @@ require('botkit-middleware-bcrm')({
 
 3. To register new users with bCRM:
 
-If using Slack, register a new team with your bot's application via the oauth flow.
+> If using Slack, register a new team with your bot's application via the oauth flow.
 Note, this assumes you are using the built-in oauth support.
 
-If using Facebook, click the "Get Started" or any other button that fires a `[facebook_postback](https://github.com/howdyai/botkit/blob/master/readme-facebook.md#using-structured-messages-and-postbacks)` or `facebook_optin` event.
+> If using Facebook, click the "Get Started" or any other button that fires a `[facebook_postback](https://github.com/howdyai/botkit/blob/master/readme-facebook.md#using-structured-messages-and-postbacks)` or `facebook_optin` event.
 Note, your app must be set to subscribe to the postback and/or optin events inside Facebook's developer tool.
 
 ## Security Note
