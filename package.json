@@ -1,6 +1,6 @@
 {
   "name": "botkit-middleware-bcrm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Integrate bCRM into Botkit to easily send broadcast messages to bot users",
   "main": "lib/middleware.js",
   "scripts": {
